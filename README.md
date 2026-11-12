@@ -36,6 +36,7 @@ pnpm dev         # http://127.0.0.1:5183
 
 ## 逐步解锁与动画
 
+d
 ![完成一个节点后的入场](docs/reveal-animation.gif)
 
 可见性规则（`src/reveal.ts`）：
