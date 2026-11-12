@@ -36,10 +36,8 @@ jobs:
       - name: Build
         run: pnpm build
 
+      # 站点由仓库所有者在 Settings → Pages 手动开启一次（GitHub 不允许 GITHUB_TOKEN 创建站点）
       - uses: actions/configure-pages@v5
-        with:
-          # 首次运行时仓库还没有 Pages 站点，让 action 直接创建（需要 pages: write，已在顶层授予）
-          enablement: true
 
       - uses: actions/upload-pages-artifact@v3
         with:
