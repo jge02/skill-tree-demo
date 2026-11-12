@@ -22,7 +22,8 @@ jobs:
 
       - uses: pnpm/action-setup@v4
         with:
-          version: 11
+          # 与本地生成 lockfile 的版本保持一致，避免生成器升级导致 lockfile 配置漂移
+          version: 11.28.5
 
       - uses: actions/setup-node@v4
         with:

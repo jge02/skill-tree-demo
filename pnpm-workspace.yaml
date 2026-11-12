@@ -1,5 +1,7 @@
 nodeLinker: hoisted
 verifyDepsBeforeRun: false
 
-onlyBuiltDependencies:
-  - esbuild
+# pnpm 11 用 allowBuilds（对象形式）替代了旧的 onlyBuiltDependencies 数组。
+# 不写这条，esbuild 的 postinstall 会被跳过，CI 里 pnpm install 直接以 ERR_PNPM_IGNORED_BUILDS 退出 1。
+allowBuilds:
+  esbuild: true
