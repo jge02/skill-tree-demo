@@ -1,0 +1,752 @@
+{
+  "tree": {
+    "id": "c7a41e02-8f13-4b6a-9d2e-5b7c1a9f0e33",
+    "topic": "IGCSE Physics (0625, English medium)",
+    "title": "IGCSE 物理 · 用英语学懂 0625",
+    "description": "按物理依赖而不是教材章节排序：先立住单位、图像与考试语言，再沿力学—热学—波—电学—核与天体推进，最后收口到英文长答题。共 26 个节点，每条目标都要求用英文产出。",
+    "difficulty_level": "intermediate",
+    "total_nodes": 26
+  },
+  "current_node_id": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "tree_id": "c7a41e02-8f13-4b6a-9d2e-5b7c1a9f0e33",
+      "title": "Quantities, Units & Apparatus",
+      "description": "物理量的名称、符号、单位与测量工具，是英文卷面上最容易白丢分的地方。",
+      "icon": "compass",
+      "category": "Exam Skills",
+      "difficulty": 1,
+      "estimated_minutes": 90,
+      "depth_level": 1,
+      "position_x": 0,
+      "position_y": 0,
+      "order_in_level": 0,
+      "learning_objectives": [
+        "能说出 15 个核心物理量的英文名、符号与 SI 单位，并区分 scalar 与 vector",
+        "能正确读取 ruler、vernier caliper、micrometer、measuring cylinder、thermometer、ammeter 的示值并写单位",
+        "能把 common prefixes（kilo/milli/micro/nano）在单位换算中熟练转写"
+      ],
+      "key_concepts": ["SI units", "scalar and vector", "prefixes", "reading instruments", "parallax error"],
+      "recommended_depth": "Recognize",
+      "depth_rationale": "这是后面每一道计算题的共同底座，但它本身是记忆与识别型能力：能认、能读、能换算即可，不需要在此做实验设计。整棵树的每个节点都会反复调用它，所以必须先立住。",
+      "observable_evidence": [
+        "默写一张 15 行的表：quantity / symbol / unit / 是否矢量，全对且单位大小写正确（如 N·m、m/s²、°C）",
+        "用图片或实物读 6 个仪器的示值，写出带单位的读数，并对一个刻意放偏视线的读数解释 parallax error"
+      ]
+    },
+    {
+      "id": "n2",
+      "tree_id": "c7a41e02-8f13-4b6a-9d2e-5b7c1a9f0e33",
+      "title": "Command Words & Definition Technique",
+      "description": "state / describe / explain / suggest 各自要写什么，决定同样知识能拿几分。",
+      "icon": "schema",
+      "category": "Exam Skills",
+      "difficulty": 2,
+      "estimated_minutes": 75,
+      "depth_level": 2,
+      "position_x": 0,
+      "position_y": 0,
+      "order_in_level": 0,
+      "learning_objectives": [
+        "能按 command word 决定答案结构：state 一句、describe 说现象、explain 补 mechanism、calculate 写公式代入单位",
+        "能用英文写出 10 条考纲定义，用词与 mark scheme 接近（如 «rate of change of velocity» 而非 «how fast speed changes»）",
+        "能判断自己的答案有没有回应题干要求，并指出漏掉的得分点"
+      ],
+      "key_concepts": ["command words", "mark scheme wording", "define vs describe", "explain the mechanism"],
+      "recommended_depth": "Understand",
+      "depth_rationale": "这不是背 10 条定义就完事的能力，而是要把「题目动词 → 答案结构」的映射内化到能自我批改。需要理解评分逻辑，但不需要原创内容，所以在 Understand；后面所有解释题都靠它提分。",
+      "observable_evidence": [
+        "拿一份真题的 10 道 state/describe/explain 题，用英文作答后对照 mark scheme 自评，标出每处措辞差距",
+        "把 3 条自己的口语化解释改写成符合 mark scheme 的英文书面表达，并说明改动的得分理由"
+      ]
+    },
+    {
+      "id": "n3",
+      "tree_id": "c7a41e02-8f13-4b6a-9d2e-5b7c1a9f0e33",
+      "title": "Graphs, Gradient & Proportionality",
+      "description": "IGCSE 的图像题几乎都是「斜率是什么、面积是什么、为什么不过原点」。",
+      "icon": "activity",
+      "category": "Exam Skills",
+      "difficulty": 3,
+      "estimated_minutes": 90,
+      "depth_level": 2,
+      "position_x": 0,
+      "position_y": 0,
+      "order_in_level": 0,
+      "learning_objectives": [
+        "能从图像读出 gradient 与 area，并说出它们的物理意义与单位",
+        "能区分 directly proportional、linear、inversely proportional 三种关系并各举一例",
+        "能对 best-fit line 的不确定性与异常点（anomalous result）作出英文说明"
+      ],
+      "key_concepts": ["gradient", "area under graph", "direct proportion", "line of best fit", "anomalous point"],
+      "recommended_depth": "Use",
+      "depth_rationale": "运动学、欧姆定律、冷却曲线全部要用它，且考试要求直接读取而非理论推导；只有亲手在真题图上画出斜率三角形、算过单位，才知道斜率读错一格会丢多少分。",
+      "observable_evidence": [
+        "在一张 velocity–time 图上求 acceleration 与 distance，写明 gradient 单位 m/s²、面积单位 m",
+        "给一组带异常点的实验数据，画出 best-fit line 并用英文写两句说明为什么排除该点"
+      ]
+    },
+    {
+      "id": "n4",
+      "tree_id": "c7a41e02-8f13-4b6a-9d2e-5b7c1a9f0e33",
+      "title": "Practical Skills: Variables, Uncertainty & Reliability",
+      "description": "Paper 6 / ATP 考的不是结论，而是你怎么控制变量、怎么描述误差。",
+      "icon": "flask",
+      "category": "Exam Skills",
+      "difficulty": 3,
+      "estimated_minutes": 120,
+      "depth_level": 3,
+      "position_x": 0,
+      "position_y": 0,
+      "order_in_level": 0,
+      "learning_objectives": [
+        "能对任一实验说出 independent / dependent / control variables，并用英文写清如何保持恒定",
+        "能区分 precise、accurate、reliable 三个词并各自给出提高方法",
+        "能用英文描述一个安全风险与对应防护（precaution），而不是笼统写 «be careful»"
+      ],
+      "key_concepts": ["independent variable", "control variable", "precision vs accuracy", "precaution", "repeat and average"],
+      "recommended_depth": "Use",
+      "depth_rationale": "这是唯一必须自己设计一次完整实验流程的节点：变量表、读数次数、取平均、误差来源都要落地成文字。只看范文无法体会 ATP 的评分点，所以是 Use。",
+      "observable_evidence": [
+        "为「测金属块密度」写一份英文方案：变量表、仪器、步骤、重复次数、如何减少误差，覆盖 ATP 常见得分点",
+        "拿一份 ATP 真题的评分标准，标出自己方案里缺失的 precaution 并补写"
+      ]
+    },
+    {
+      "id": "n5",
+      "tree_id": "c7a41e02-8f13-4b6a-9d2e-5b7c1a9f0e33",
+      "title": "Kinematics: Motion Graphs & Equations",
+      "description": "从距离—时间与速度—时间两张图，到四个运动学公式的选用。",
+      "icon": "stream",
+      "category": "Mechanics",
+      "difficulty": 3,
+      "estimated_minutes": 120,
+      "depth_level": 3,
+      "position_x": 0,
+      "position_y": 0,
+      "order_in_level": 0,
+      "learning_objectives": [
+        "能在 distance–time 与 velocity–time 图之间切换，并说出每段运动的英文描述",
+        "能正确选择并使用 v = u + at、s = ut + ½at²、v² = u² + 2as，写出代入过程与单位",
+        "能处理 free fall 与 deceleration 的符号方向问题"
+      ],
+      "key_concepts": ["displacement vs distance", "velocity–time graph", "acceleration", "free fall", "uniform deceleration"],
+      "recommended_depth": "Use",
+      "depth_rationale": "公式本身只有四条，难点在选式与符号方向；必须做够题并画图才能形成条件反射。牛顿定律、动量、波动都建立在这套运动描述上。",
+      "observable_evidence": [
+        "完成 10 道混合计算题（含两段运动与反向减速），每题写出已知、公式、代入、单位四步",
+        "把一段 velocity–time 图翻成 4 句英文描述，反过来再画回去，两向一致"
+      ]
+    },
+    {
+      "id": "n6",
+      "tree_id": "c7a41e02-8f13-4b6a-9d2e-5b7c1a9f0e33",
+      "title": "Forces, Newton's Laws & Terminal Velocity",
+      "description": "受力分析图（free-body diagram）是力学所有题的入口。",
+      "icon": "wrench",
+      "category": "Mechanics",
+      "difficulty": 4,
+      "estimated_minutes": 150,
+      "depth_level": 4,
+      "position_x": 0,
+      "position_y": 0,
+      "order_in_level": 0,
+      "learning_objectives": [
+        "能为 6 种典型情境画出 free-body diagram 并写出 resultant force",
+        "能用 F = ma 解决含摩擦、斜面、绳张力的问题，并解释成对作用力",
+        "能用英文解释 terminal velocity 的形成过程（三段：加速、合力减小、合力为零）"
+      ],
+      "key_concepts": ["resultant force", "Newton's second law", "terminal velocity", "friction", "free-body diagram"],
+      "recommended_depth": "Use",
+      "depth_rationale": "受力图画错，后面力矩、压强、动量全都连带失分；且 terminal velocity 的解释题几乎年年出现，必须练到能用英文按因果链写满三点。",
+      "observable_evidence": [
+        "对「跳伞者下落」画三阶段受力图，并用英文逐段写合力如何变化",
+        "解 5 道 F = ma 综合题（含摩擦与斜面），其中至少 2 道用英文写出推理过程"
+      ]
+    },
+    {
+      "id": "n7",
+      "tree_id": "c7a41e02-8f13-4b6a-9d2e-5b7c1a9f0e33",
+      "title": "Moments, Centre of Gravity & Stability",
+      "description": "转动平衡与稳定性的判据，关键词是 pivot、moment、line of action。",
+      "icon": "layers",
+      "category": "Mechanics",
+      "difficulty": 3,
+      "estimated_minutes": 90,
+      "depth_level": 5,
+      "position_x": 0,
+      "position_y": 0,
+      "order_in_level": 0,
+      "learning_objectives": [
+        "能用 moment = force × perpendicular distance 计算并判断转动平衡",
+        "能找到不规则物体的 centre of gravity，并说明其与稳定性的关系",
+        "能用英文解释「为什么降低重心、加宽底座更稳」"
+      ],
+      "key_concepts": ["moment of a force", "pivot", "principle of moments", "centre of gravity", "stability"],
+      "recommended_depth": "Use",
+      "depth_rationale": "一道综合题就要同时用 moment、平衡条件与重心概念，且垂直距离的取法极易出错；必须手算多个倾斜情境。它只依赖受力分析，不依赖后续章节。",
+      "observable_evidence": [
+        "解 3 道 principle of moments 题（含 metre rule 与两人抬物），写出垂直距离的取法",
+        "用英文写 4 句解释：为什么赛车底盘低、货物装底部；每句都要点到 line of action 与 base"
+      ]
+    },
+    {
+      "id": "n8",
+      "tree_id": "c7a41e02-8f13-4b6a-9d2e-5b7c1a9f0e33",
+      "title": "Pressure in Solids, Liquids & Gases",
+      "description": "p = F/A、p = ρgh、pV = constant 三套公式的适用边界。",
+      "icon": "plug",
+      "category": "Mechanics",
+      "difficulty": 3,
+      "estimated_minutes": 100,
+      "depth_level": 5,
+      "position_x": 0,
+      "position_y": 0,
+      "order_in_level": 0,
+      "learning_objectives": [
+        "能用 p = F/A 解释面积与压强的关系，并用 p = ρgh 计算液体压强",
+        "能用分子运动模型解释气体压强的来源，并处理 pV = constant 的定量题",
+        "能说明为什么液体压强与容器形状无关、只与深度和密度有关"
+      ],
+      "key_concepts": ["pressure", "p = F/A", "p = ρgh", "pV = constant", "molecular model"],
+      "recommended_depth": "Understand",
+      "depth_rationale": "公式都能套，真正的考点是「为什么」：液体压强与形状无关、气体压强来自分子碰撞。这层解释必须在理解层面打通，否则热学节点只能死记。",
+      "observable_evidence": [
+        "解 4 道混合压强题（固体、液体、气体各至少一道），每题注明用的是哪条公式及理由",
+        "用英文写一段 3 句解释：为什么同一深度不同形状容器压强相同"
+      ]
+    },
+    {
+      "id": "n9",
+      "tree_id": "c7a41e02-8f13-4b6a-9d2e-5b7c1a9f0e33",
+      "title": "Work, Energy & Power",
+      "description": "能量守恒是全卷的通用货币：力学、电学、热学都在换算它。",
+      "icon": "coins",
+      "category": "Mechanics",
+      "difficulty": 4,
+      "estimated_minutes": 120,
+      "depth_level": 5,
+      "position_x": 0,
+      "position_y": 0,
+      "order_in_level": 0,
+      "learning_objectives": [
+        "能用 W = Fd、KE = ½mv²、PE = mgh、P = E/t 完成能量链计算并说明效率损耗",
+        "能识别能量在形式间转换的路径（含摩擦生热），并写出 conservation of energy 的英文表述",
+        "能计算 efficiency 并解释剩余能量去了哪里"
+      ],
+      "key_concepts": ["work done", "kinetic energy", "gravitational PE", "power", "efficiency", "conservation of energy"],
+      "recommended_depth": "Use",
+      "depth_rationale": "这条链一旦打通，热学的比热、电学的电能都能直接迁移；反之若只会单公式，综合题必错。必须自己算过含摩擦与效率损失的真实情境。",
+      "observable_evidence": [
+        "算一道「斜坡下滑→水平摩擦停止」的完整能量链，列出每一步的能量形式与数值",
+        "对一台电动机算 efficiency，并用英文写两句说明损耗的去向"
+      ]
+    },
+    {
+      "id": "n10",
+      "tree_id": "c7a41e02-8f13-4b6a-9d2e-5b7c1a9f0e33",
+      "title": "Momentum & Collisions",
+      "description": "动量守恒处理碰撞与爆炸，注意方向与「系统」的界定。",
+      "icon": "loop",
+      "category": "Mechanics",
+      "difficulty": 4,
+      "estimated_minutes": 90,
+      "depth_level": 6,
+      "position_x": 0,
+      "position_y": 0,
+      "order_in_level": 0,
+      "learning_objectives": [
+        "能用 p = mv 与 momentum conservation 解一维碰撞与粘连问题，方向符号正确",
+        "能区分 elastic 与 inelastic 碰撞，并说明动能是否守恒",
+        "能用 impulse 概念解释安全气囊、缓冲垫的作用"
+      ],
+      "key_concepts": ["momentum", "conservation of momentum", "elastic collision", "impulse", "crumple zone"],
+      "recommended_depth": "Use",
+      "depth_rationale": "方向符号与「碰前碰后」的书写格式是主要失分点，必须按固定格式练几题；impulse 的解释题也常考，需要能把 FΔt 与减速时间联系起来。",
+      "observable_evidence": [
+        "解 4 道动量题（含反弹与粘连），每题先画方向正负约定",
+        "用英文写 3 句解释：为什么安全气囊能减小伤害（要点 FΔt 与接触时间）"
+      ]
+    },
+    {
+      "id": "n11",
+      "tree_id": "c7a41e02-8f13-4b6a-9d2e-5b7c1a9f0e33",
+      "title": "Thermal Physics: Kinetic Model, c & L",
+      "description": "比热容与潜热：两条公式，一张冷却曲线，一个分子模型。",
+      "icon": "layers",
+      "category": "Thermal",
+      "difficulty": 4,
+      "estimated_minutes": 150,
+      "depth_level": 6,
+      "position_x": 0,
+      "position_y": 0,
+      "order_in_level": 0,
+      "learning_objectives": [
+        "能用 Q = mcΔθ 与 Q = mL 计算加热、熔化、沸腾全过程的热量并画温度—时间图",
+        "能用分子运动模型解释 melting 与 boiling 时温度为什么不变",
+        "能解释为什么沿海地区昼夜温差小（specific heat capacity 的应用）"
+      ],
+      "key_concepts": ["specific heat capacity", "latent heat", "melting plateau", "kinetic particle model", "internal energy"],
+      "recommended_depth": "Use",
+      "depth_rationale": "Q = mcΔθ 与 Q = mL 混用、Δθ 与 θ 混用是高频错误；只有把「冰→水→蒸汽」整条曲线分段算过一遍，才能建立正确的分段意识。此节点同时是热传递与气体定律的前置。",
+      "observable_evidence": [
+        "完整计算 0.5 kg 冰从 −10 °C 到 110 °C 的总吸热，分四段并画出对应曲线",
+        "用英文写 3 句解释沸腾时温度不变的原因，提到 energy 用于克服分子间作用力"
+      ]
+    },
+    {
+      "id": "n12",
+      "tree_id": "c7a41e02-8f13-4b6a-9d2e-5b7c1a9f0e33",
+      "title": "Heat Transfer & Thermal Insulation",
+      "description": "conduction / convection / radiation 三套机制，考的是「为什么」。",
+      "icon": "activity",
+      "category": "Thermal",
+      "difficulty": 3,
+      "estimated_minutes": 90,
+      "depth_level": 7,
+      "position_x": 0,
+      "position_y": 0,
+      "order_in_level": 0,
+      "learning_objectives": [
+        "能分别用金属自由电子、对流循环、表面颜色解释三种传热机制",
+        "能对保温杯、双层玻璃、屋顶隔热逐项说明抑制哪种传热",
+        "能判断具体情境以哪种传热为主，并给出英文论证"
+      ],
+      "key_concepts": ["conduction", "convection current", "radiation", "emitter", "insulation"],
+      "recommended_depth": "Understand",
+      "depth_rationale": "机制解释需要因果链，靠背结论拿不到满分；但不需要做定量计算。它是热学里最典型的「解释题」，练的是英文表达能力而非运算。",
+      "observable_evidence": [
+        "画一个保温杯截面，标出 4 处设计并分别用英文说明抑制了哪种传热",
+        "用英文写 5 句解释：为什么深色粗糙表面散热更快"
+      ]
+    },
+    {
+      "id": "n13",
+      "tree_id": "c7a41e02-8f13-4b6a-9d2e-5b7c1a9f0e33",
+      "title": "Wave Quantities & the Wave Equation",
+      "description": "频率、波长、波速的关系，以及 transverse 与 longitudinal 的区别。",
+      "icon": "stream",
+      "category": "Waves",
+      "difficulty": 3,
+      "estimated_minutes": 90,
+      "depth_level": 6,
+      "position_x": 0,
+      "position_y": 0,
+      "order_in_level": 0,
+      "learning_objectives": [
+        "能用 v = fλ 计算并解释各量单位，正确读出波形图上的 wavelength 与 amplitude",
+        "能区分 transverse 与 longitudinal，并各举两个例子",
+        "能说明波在换介质时频率不变、波速与波长改变"
+      ],
+      "key_concepts": ["wavelength", "frequency", "amplitude", "v = fλ", "transverse vs longitudinal", "wavefront"],
+      "recommended_depth": "Use",
+      "depth_rationale": "v = fλ 本身简单，但「换介质时什么变、什么不变」是必考理解点，也是光学与声学节点的共同前提。必须结合波形图实际读一遍而不是背公式。",
+      "observable_evidence": [
+        "在一张 wavefront 图上标出 wavelength 与 amplitude，并用 v = fλ 算波速",
+        "用英文写 3 句说明：光从空气进玻璃，frequency、speed、wavelength 各自如何变化"
+      ]
+    },
+    {
+      "id": "n14",
+      "tree_id": "c7a41e02-8f13-4b6a-9d2e-5b7c1a9f0e33",
+      "title": "Reflection, Refraction & Total Internal Reflection",
+      "description": "从镜面成像到光纤：折射角、临界角、全反射三条主线。",
+      "icon": "reconnect",
+      "category": "Waves",
+      "difficulty": 4,
+      "estimated_minutes": 120,
+      "depth_level": 7,
+      "position_x": 0,
+      "position_y": 0,
+      "order_in_level": 0,
+      "learning_objectives": [
+        "能画光线图并标注 normal、angle of incidence、angle of refraction，说明 law of reflection",
+        "能用 refractive index 与 Snell 关系判断光线偏折方向，并计算 critical angle",
+        "能说明光纤中 total internal reflection 的条件与两个条件同时不满足时的现象"
+      ],
+      "key_concepts": ["normal", "refraction", "refractive index", "critical angle", "total internal reflection"],
+      "recommended_depth": "Use",
+      "depth_rationale": "这是几何光学最容易画错 normal 的节点，且计算与作图两条线都要过；只有手画过十几次光线图，才能稳定判断偏折方向。透镜节点直接建在它上面。",
+      "observable_evidence": [
+        "完成 6 幅光线图（平面镜、玻璃砖、棱镜、光纤），每幅标全 normal 与角度",
+        "计算玻璃（n = 1.5）的 critical angle，并用英文写 2 句说明光纤为何能导光"
+      ]
+    },
+    {
+      "id": "n15",
+      "tree_id": "c7a41e02-8f13-4b6a-9d2e-5b7c1a9f0e33",
+      "title": "Lenses & Image Formation",
+      "description": "凸透镜三条特殊光线，实像与虚像的判据。",
+      "icon": "layers",
+      "category": "Waves",
+      "difficulty": 4,
+      "estimated_minutes": 120,
+      "depth_level": 8,
+      "position_x": 0,
+      "position_y": 0,
+      "order_in_level": 0,
+      "learning_objectives": [
+        "能按物体位置画出凸透镜成像光路，判断实像/虚像、正立/倒立、放大/缩小",
+        "能用 1/f = 1/u + 1/v 与 magnification = v/u 完成计算并说明符号意义",
+        "能解释近视与远视的成因及对应镜片，并说明其光路差异"
+      ],
+      "key_concepts": ["convex lens", "principal focus", "real vs virtual image", "magnification", "short sight"],
+      "recommended_depth": "Use",
+      "depth_rationale": "成像规律的表格可以背，但考试给的是具体 u，要现场作图与计算；且虚像的作图最容易崩。它是波动光学里唯一要求综合作图与计算的节点。",
+      "observable_evidence": [
+        "对 u = 2f、f、0.5f 三种位置作图并列表写出像的性质",
+        "完成 5 道透镜计算题，其中至少 1 道虚像，magnification 与单位都写出"
+      ]
+    },
+    {
+      "id": "n16",
+      "tree_id": "c7a41e02-8f13-4b6a-9d2e-5b7c1a9f0e33",
+      "title": "Sound & the Electromagnetic Spectrum",
+      "description": "声波是纵波、需要介质；电磁波是横波、不需要介质。两者常被合并考。",
+      "icon": "book",
+      "category": "Waves",
+      "difficulty": 3,
+      "estimated_minutes": 100,
+      "depth_level": 7,
+      "position_x": 0,
+      "position_y": 0,
+      "order_in_level": 0,
+      "learning_objectives": [
+        "能说明声速在不同介质中的大小关系，并用回声测距计算",
+        "能按频率顺序写出 EM spectrum 七段，并各举一个用途与一个危害/防护",
+        "能解释 pitch 与 loudness 分别对应 frequency 与 amplitude，以及 ultrasound 的应用"
+      ],
+      "key_concepts": ["longitudinal wave", "echo", "ultrasound", "EM spectrum", "frequency and pitch", "ionising radiation"],
+      "recommended_depth": "Understand",
+      "depth_rationale": "这一段以描述与分类为主，计算只有回声测距一种；但术语密度高、拼写易错（ultrasound、ionising），需要在理解顺序与性质的基础上记忆。",
+      "observable_evidence": [
+        "默写 EM spectrum 七段顺序，每段补一个用途，术语拼写全对",
+        "用回声测距算海底深度或测距仪距离，并用英文写 2 句说明为何声呐不能用电磁波替代"
+      ]
+    },
+    {
+      "id": "n17",
+      "tree_id": "c7a41e02-8f13-4b6a-9d2e-5b7c1a9f0e33",
+      "title": "Charge, Current & Static Electricity",
+      "description": "电荷、电流、电压三个量的定义与静电起电机制。",
+      "icon": "plug",
+      "category": "Electricity",
+      "difficulty": 3,
+      "estimated_minutes": 90,
+      "depth_level": 2,
+      "position_x": 0,
+      "position_y": 0,
+      "order_in_level": 0,
+      "learning_objectives": [
+        "能定义 current 为 rate of flow of charge，并正确使用 Q = It",
+        "能用电子转移解释摩擦起电、induction 与接地放电，说明为什么是 electrons 移动",
+        "能说明 electric field 的方向与场线疏密含义"
+      ],
+      "key_concepts": ["electric charge", "current", "Q = It", "static electricity", "electric field", "induced charge"],
+      "recommended_depth": "Understand",
+      "depth_rationale": "Q = It 只是入门计算，重点是「谁在移动」这一层微观解释，静电池与安全用电都靠它。它不与力学链强耦合，是全树里较早可以并行的分支。",
+      "observable_evidence": [
+        "用英文写 4 句解释：为什么塑料尺摩擦后能吸纸屑，涉及 electron transfer 与 induced charge",
+        "解 3 道 Q = It 题（含单位换算 mA、μA），并说明 current 与 charge 的单位关系"
+      ]
+    },
+    {
+      "id": "n18",
+      "tree_id": "c7a41e02-8f13-4b6a-9d2e-5b7c1a9f0e33",
+      "title": "Circuits: Series, Parallel & Ohm's Law",
+      "description": "串并联的电流电压规律、欧姆定律与 I–V 图像。",
+      "icon": "reconnect",
+      "category": "Electricity",
+      "difficulty": 4,
+      "estimated_minutes": 150,
+      "depth_level": 3,
+      "position_x": 0,
+      "position_y": 0,
+      "order_in_level": 0,
+      "learning_objectives": [
+        "能对串并联电路算出等效电阻、各支路电流电压，并说出规律",
+        "能用 V = IR 与 I–V 图像区分 ohmic 与 non-ohmic 元件（filament lamp、diode）",
+        "能诊断常见电路故障（断路、短路、接反）并说明现象"
+      ],
+      "key_concepts": ["series circuit", "parallel circuit", "Ohm's law", "I–V characteristic", "filament lamp", "diode"],
+      "recommended_depth": "Use",
+      "depth_rationale": "这是电学的地基：等效电阻、分流分压必须练到能默算，否则后面前功率与家庭电路全部卡住。I–V 图像还要求把图与元件行为对上，属于必须动手的能力。",
+      "observable_evidence": [
+        "解 6 道电路题（含两个并联支路再串联），写出每一步的电流电压分配",
+        "画出 filament lamp 与 diode 的 I–V 曲线，用英文各写 2 句说明为什么不是直线"
+      ]
+    },
+    {
+      "id": "n19",
+      "tree_id": "c7a41e02-8f13-4b6a-9d2e-5b7c1a9f0e33",
+      "title": "Electrical Power, Energy & Cost",
+      "description": "P = VI、E = Pt 与电费单：物理量落到钱包上的那一层。",
+      "icon": "coins",
+      "category": "Electricity",
+      "difficulty": 4,
+      "estimated_minutes": 90,
+      "depth_level": 6,
+      "position_x": 0,
+      "position_y": 0,
+      "order_in_level": 0,
+      "learning_objectives": [
+        "能用 P = VI = I²R = V²/R 计算并说明何时选哪条",
+        "能用 E = Pt 计算用电量（kWh）并算出电费，单位换算无误",
+        "能解释 fuse 与 circuit breaker 的选型依据（额定电流）"
+      ],
+      "key_concepts": ["electrical power", "energy transferred", "kilowatt-hour", "fuse rating", "circuit breaker"],
+      "recommended_depth": "Use",
+      "depth_rationale": "三条功率公式的选用要靠题目给定量判断，kWh 与 J 的换算也是固定失分点；必须做含电费的完整算例。它与能量节点共用「能量守恒」的思维。",
+      "observable_evidence": [
+        "给一台 2 kW 热水器算 30 天电费（电价给定），写出 kWh 与 J 两种结果",
+        "为一条电路选择合适 fuse 并说明理由，用英文写 2 句"
+      ]
+    },
+    {
+      "id": "n20",
+      "tree_id": "c7a41e02-8f13-4b6a-9d2e-5b7c1a9f0e33",
+      "title": "Mains Electricity & Safety",
+      "description": "live / neutral / earth 三根线、保险丝、接地与触电防护。",
+      "icon": "shield",
+      "category": "Electricity",
+      "difficulty": 3,
+      "estimated_minutes": 75,
+      "depth_level": 7,
+      "position_x": 0,
+      "position_y": 0,
+      "order_in_level": 0,
+      "learning_objectives": [
+        "能说清 live、neutral、earth 三线的作用与颜色，以及插头接线顺序",
+        "能解释 earthing 与 fuse 如何协同防止外壳带电伤人",
+        "能判断哪些是导体/绝缘体风险，并写出双语安全警示"
+      ],
+      "key_concepts": ["live wire", "neutral wire", "earth wire", "double insulation", "earthing", "electric shock"],
+      "recommended_depth": "Understand",
+      "depth_rationale": "这一节几乎全是解释题，考的是因果链（外壳带电→接地→大电流→熔断）；不需要复杂计算，但必须能把三步讲完整，属于典型理解型节点。",
+      "observable_evidence": [
+        "画一个三线插头并标注颜色与作用，用英文写 5 句解释 earthing 的保护过程",
+        "列出 4 条家庭用电安全规则，每条说明它防止的是哪种风险"
+      ]
+    },
+    {
+      "id": "n21",
+      "tree_id": "c7a41e02-8f13-4b6a-9d2e-5b7c1a9f0e33",
+      "title": "Magnetism, Motors & Electromagnetic Induction",
+      "description": "磁场、通电导体受力、感应电流：三组右手/左手定则。",
+      "icon": "loop",
+      "category": "Electricity",
+      "difficulty": 4,
+      "estimated_minutes": 150,
+      "depth_level": 4,
+      "position_x": 0,
+      "position_y": 0,
+      "order_in_level": 0,
+      "learning_objectives": [
+        "能画出磁感线并判断通电直导线、螺线管的磁场方向",
+        "能用 motor effect 解释 d.c. motor 转动，并说明换向器（split-ring commutator）的作用",
+        "能用 electromagnetic induction 解释感应电流的产生条件，并说出增大感应电动势的三种方法"
+      ],
+      "key_concepts": ["magnetic field", "motor effect", "Fleming's left-hand rule", "electromagnetic induction", "commutator", "induced e.m.f."],
+      "recommended_depth": "Use",
+      "depth_rationale": "三个定则容易互相混淆，只有动手画过多个方向组合才能稳定；电机与发电机是同一套场的两种应用，考试要求能互相解释。变压器节点直接建立在感应之上。",
+      "observable_evidence": [
+        "对 6 组「电流方向 + 磁场方向」判定受力方向，全部正确并画出力的箭头",
+        "用英文写 4 句说明发电机如何产生感应电流，提到 cutting field lines 与 rate of change"
+      ]
+    },
+    {
+      "id": "n22",
+      "tree_id": "c7a41e02-8f13-4b6a-9d2e-5b7c1a9f0e33",
+      "title": "Transformers & Power Transmission",
+      "description": "为什么高压输电：一次变压，省下的全是导线上的热损耗。",
+      "icon": "schema",
+      "category": "Electricity",
+      "difficulty": 4,
+      "estimated_minutes": 90,
+      "depth_level": 5,
+      "position_x": 0,
+      "position_y": 0,
+      "order_in_level": 0,
+      "learning_objectives": [
+        "能用 Vp/Vs = Np/Ns 计算变压器电压与匝数，并说明理想变压器功率不变",
+        "能解释高压输电如何减小 I²R 损耗（同功率下电压升高、电流下降）",
+        "能说明变压器为什么只能用于 alternating current"
+      ],
+      "key_concepts": ["step-up transformer", "step-down transformer", "turns ratio", "I²R losses", "a.c. only"],
+      "recommended_depth": "Use",
+      "depth_rationale": "公式只有一条，但「为什么输电用高压」需要把 P = VI 与 P = I²R 串起来做反直觉推理；这是电学里最典型的综合解释题，必须自己推一遍。",
+      "observable_evidence": [
+        "算一道完整输电题：给定功率与两种电压，比较线路损耗并给出倍数关系",
+        "用英文写 4 句解释高压输电的好处，明确区分 transmission voltage 与 current"
+      ]
+    },
+    {
+      "id": "n23",
+      "tree_id": "c7a41e02-8f13-4b6a-9d2e-5b7c1a9f0e33",
+      "title": "Atomic Structure & Radioactivity",
+      "description": "质子、中子、电子与三种射线：从原子模型到衰变方程。",
+      "icon": "flask",
+      "category": "Nuclear & Space",
+      "difficulty": 3,
+      "estimated_minutes": 100,
+      "depth_level": 2,
+      "position_x": 0,
+      "position_y": 0,
+      "order_in_level": 0,
+      "learning_objectives": [
+        "能写出原子符号与质子/中子/电子数，说明 isotopes 的差异",
+        "能写出 α、β、γ 衰变的核反应式，保持质量数与电荷数守恒",
+        "能比较三种射线的穿透力、电离能力与在电场中的偏转"
+      ],
+      "key_concepts": ["proton number", "nucleon number", "isotope", "alpha/beta/gamma", "decay equation", "penetrating power"],
+      "recommended_depth": "Understand",
+      "depth_rationale": "衰变方程的守恒是硬规则，必须练到不出错；三种射线的性质对比是高频表述题。此节点只需要理解与配平，不需要统计计算，半衰期节点另立。",
+      "observable_evidence": [
+        "配平 6 个衰变方程（含 β 衰变中子转质子），全部守恒",
+        "做一张三射线对比表（穿透、电离、偏转、本质），并用英文写 2 句说明 γ 为何穿透最强"
+      ]
+    },
+    {
+      "id": "n24",
+      "tree_id": "c7a41e02-8f13-4b6a-9d2e-5b7c1a9f0e33",
+      "title": "Half-life, Uses & Radiation Safety",
+      "description": "半衰期计算、碳定年与医疗应用，加上防护三原则。",
+      "icon": "activity",
+      "category": "Nuclear & Space",
+      "difficulty": 4,
+      "estimated_minutes": 90,
+      "depth_level": 3,
+      "position_x": 0,
+      "position_y": 0,
+      "order_in_level": 0,
+      "learning_objectives": [
+        "能用 half-life 计算剩余质量或经历时间，并解释它为何是统计量",
+        "能说明 carbon dating 与 medical tracer 的选择依据（半衰期长短、射线类型）",
+        "能写出辐射防护三原则（distance、shielding、time）并各举一例"
+      ],
+      "key_concepts": ["half-life", "carbon-14 dating", "tracer", "background radiation", "ALARA"],
+      "recommended_depth": "Use",
+      "depth_rationale": "半衰期计算有固定套路但容易错在「经过几个半衰期」；应用题的得分点在于选择理由（为什么这个同位素合适），必须结合真实场景练。",
+      "observable_evidence": [
+        "算一道半衰期题（给定初始质量与时间求剩余），写出 n = t/T½ 的推导",
+        "为「甲状腺检查」和「烟雾报警器」各选一种射线并写英文理由，覆盖半衰期与穿透力"
+      ]
+    },
+    {
+      "id": "n25",
+      "tree_id": "c7a41e02-8f13-4b6a-9d2e-5b7c1a9f0e33",
+      "title": "Astronomy & the Stellar Life Cycle",
+      "description": "太阳系、光年、红移与恒星演化：术语多、计算少。",
+      "icon": "compass",
+      "category": "Nuclear & Space",
+      "difficulty": 3,
+      "estimated_minutes": 75,
+      "depth_level": 4,
+      "position_x": 0,
+      "position_y": 0,
+      "order_in_level": 0,
+      "learning_objectives": [
+        "能按质量分叉描述恒星一生（nebula→main sequence→red giant/supergiant→white dwarf/neutron star/black hole）",
+        "能解释 light year 是距离单位，并用它做简单换算",
+        "能用 redshift 说明宇宙膨胀，并说明其证据链"
+      ],
+      "key_concepts": ["light year", "main sequence", "red giant", "supernova", "redshift", "Big Bang evidence"],
+      "recommended_depth": "Recognize",
+      "depth_rationale": "这一块以描述与排序为主，计算只有光年换算；目标是能准确复述演化路径与红移证据，而不是推导天体物理。因此停在 Recognize，是这棵树里成本最低的得分点。",
+      "observable_evidence": [
+        "画一张恒星演化分叉图，用英文标出每个阶段名称",
+        "用英文写 3 句解释：为什么遥远星系的 redshift 支持宇宙膨胀"
+      ]
+    },
+    {
+      "id": "n26",
+      "tree_id": "c7a41e02-8f13-4b6a-9d2e-5b7c1a9f0e33",
+      "title": "Six-mark Extended Writing in English",
+      "description": "把整棵树的知识压缩成一段有结构、有术语、有因果的英文长答。若还没练熟 command words，先回到 Command Words & Definition Technique 补一轮。",
+      "icon": "flag",
+      "category": "Exam Skills",
+      "difficulty": 5,
+      "estimated_minutes": 180,
+      "depth_level": 7,
+      "position_x": 0,
+      "position_y": 0,
+      "order_in_level": 0,
+      "learning_objectives": [
+        "能在 8 分钟内就任一主题写出 6 分结构：定义→机制→例子→结论",
+        "能主动使用学科术语与连接词（therefore、as a result、this means that），避免口语化表达",
+        "能对照 mark scheme 给自己或他人评分，并指出缺失的得分点"
+      ],
+      "key_concepts": ["extended response", "mark scheme", "cause and effect", "subject terminology", "paragraph structure"],
+      "recommended_depth": "Master",
+      "depth_rationale": "这是全树的收口能力：要求把力学、波、电学、核的内容在压力下组织成英文段落，并达到可自我批改的稳定度。只有「能重复、能教别人」才算完成，因此是 Master。",
+      "observable_evidence": [
+        "限时写 3 篇 6 分长答（分别取自力学、电学、核物理），对照 mark scheme 自评并记录得分",
+        "把一篇得分 3/6 的旧答案改写到 5/6，逐句标注改动理由"
+      ]
+    }
+  ],
+  "edges": [
+    { "id": "e1", "source_node_id": "n1", "target_node_id": "n2" },
+    { "id": "e2", "source_node_id": "n1", "target_node_id": "n3" },
+    { "id": "e3", "source_node_id": "n1", "target_node_id": "n17" },
+    { "id": "e4", "source_node_id": "n1", "target_node_id": "n23" },
+    { "id": "e5", "source_node_id": "n3", "target_node_id": "n4" },
+    { "id": "e6", "source_node_id": "n1", "target_node_id": "n4" },
+    { "id": "e7", "source_node_id": "n1", "target_node_id": "n5" },
+    { "id": "e8", "source_node_id": "n3", "target_node_id": "n5" },
+    { "id": "e9", "source_node_id": "n5", "target_node_id": "n6" },
+    { "id": "e10", "source_node_id": "n6", "target_node_id": "n7" },
+    { "id": "e11", "source_node_id": "n6", "target_node_id": "n8" },
+    { "id": "e12", "source_node_id": "n6", "target_node_id": "n9" },
+    { "id": "e13", "source_node_id": "n9", "target_node_id": "n10" },
+    { "id": "e14", "source_node_id": "n9", "target_node_id": "n11" },
+    { "id": "e15", "source_node_id": "n8", "target_node_id": "n11" },
+    { "id": "e16", "source_node_id": "n11", "target_node_id": "n12" },
+    { "id": "e17", "source_node_id": "n9", "target_node_id": "n13" },
+    { "id": "e18", "source_node_id": "n13", "target_node_id": "n14" },
+    { "id": "e19", "source_node_id": "n14", "target_node_id": "n15" },
+    { "id": "e20", "source_node_id": "n13", "target_node_id": "n16" },
+    { "id": "e21", "source_node_id": "n17", "target_node_id": "n18" },
+    { "id": "e22", "source_node_id": "n18", "target_node_id": "n19" },
+    { "id": "e23", "source_node_id": "n9", "target_node_id": "n19" },
+    { "id": "e24", "source_node_id": "n19", "target_node_id": "n20" },
+    { "id": "e25", "source_node_id": "n17", "target_node_id": "n21" },
+    { "id": "e26", "source_node_id": "n18", "target_node_id": "n21" },
+    { "id": "e27", "source_node_id": "n21", "target_node_id": "n22" },
+    { "id": "e28", "source_node_id": "n23", "target_node_id": "n24" },
+    { "id": "e29", "source_node_id": "n23", "target_node_id": "n25" },
+    { "id": "e30", "source_node_id": "n6", "target_node_id": "n25" },
+    { "id": "e32", "source_node_id": "n16", "target_node_id": "n26" },
+    { "id": "e33", "source_node_id": "n20", "target_node_id": "n26" },
+    { "id": "e34", "source_node_id": "n24", "target_node_id": "n26" }
+  ],
+  "progress": [
+    { "node_id": "n1", "status": "current", "evidence": "" },
+    { "node_id": "n2", "status": "not_started", "evidence": "" },
+    { "node_id": "n3", "status": "not_started", "evidence": "" },
+    { "node_id": "n4", "status": "not_started", "evidence": "" },
+    { "node_id": "n5", "status": "not_started", "evidence": "" },
+    { "node_id": "n6", "status": "not_started", "evidence": "" },
+    { "node_id": "n7", "status": "not_started", "evidence": "" },
+    { "node_id": "n8", "status": "not_started", "evidence": "" },
+    { "node_id": "n9", "status": "not_started", "evidence": "" },
+    { "node_id": "n10", "status": "not_started", "evidence": "" },
+    { "node_id": "n11", "status": "not_started", "evidence": "" },
+    { "node_id": "n12", "status": "not_started", "evidence": "" },
+    { "node_id": "n13", "status": "not_started", "evidence": "" },
+    { "node_id": "n14", "status": "not_started", "evidence": "" },
+    { "node_id": "n15", "status": "not_started", "evidence": "" },
+    { "node_id": "n16", "status": "not_started", "evidence": "" },
+    { "node_id": "n17", "status": "not_started", "evidence": "" },
+    { "node_id": "n18", "status": "not_started", "evidence": "" },
+    { "node_id": "n19", "status": "not_started", "evidence": "" },
+    { "node_id": "n20", "status": "not_started", "evidence": "" },
+    { "node_id": "n21", "status": "not_started", "evidence": "" },
+    { "node_id": "n22", "status": "not_started", "evidence": "" },
+    { "node_id": "n23", "status": "not_started", "evidence": "" },
+    { "node_id": "n24", "status": "not_started", "evidence": "" },
+    { "node_id": "n25", "status": "not_started", "evidence": "" },
+    { "node_id": "n26", "status": "not_started", "evidence": "" }
+  ]
+}
